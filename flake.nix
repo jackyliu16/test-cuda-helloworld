@@ -70,6 +70,7 @@
 
         # CUDA_PATH = pkgs.cudaPackages.cudatoolkit;
         # LD_LIBRARY_PATH = "${pkgs.cudaPackages.cudatoolkit}/lib:${pkgs.cudaPackages.cudatoolkit}/lib/stubs:${pkgs.cudaPackages.cudatoolkit.lib}/lib:$LD_LIBRARY_PATH";
+        LD_LIBRARY_PATH = "/run/opengl-driver/lib:/run/opengl-driver-32/lib";
 
         # shellHooks = ''
         #   export PATH="${pkgs.gcc11}/bin:${pkgs.cudatoolkit}/bin:${pkgs.cudatoolkit}/nvvm/bin:$PATH"
