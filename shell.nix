@@ -41,9 +41,9 @@
 
 
   profile = ''
-    export CUDA_PATH="${pkgs.cudaPackages.cudatoolkit}";
-    export LIBRARY_PATH="${pkgs.cudaPackages.cudatoolkit}/lib:$LIBRARY_PATH";
-    export LD_LIBRARY_PATH="${pkgs.cudaPackages.cudatoolkit}/lib:$LD_LIBRARY_PATH";
+    export CUDA_PATH="${pkgs.cudatoolkit}";
+    export LIBRARY_PATH="${pkgs.cudatoolkit}/lib:$LIBRARY_PATH";
+    export LD_LIBRARY_PATH="${pkgs.cudatoolkit}/lib:$LD_LIBRARY_PATH";
   '';
 
 }).env
