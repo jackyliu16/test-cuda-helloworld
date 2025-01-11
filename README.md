@@ -9,6 +9,14 @@ FIXME: 没有办法在 F H S 环境下正常编译环境，可能需要进一步
 $ nix develop .#build
 
 $ nvcc he.cu
+
+# ERROR MESSAGE
+$ nix develop .#fhs
+
+[nix-shell]$ nvcc he.cu 
+/nix/store/bwkb907myixfzzykp21m9iczkhrq5pfy-binutils-2.43.1/bin/ld: 找不到 -lcudadevrt: No such file or directory
+/nix/store/bwkb907myixfzzykp21m9iczkhrq5pfy-binutils-2.43.1/bin/ld: 找不到 -lcudart_static: No such file or directory
+collect2: 错误：ld 返回 1
 ```
 
 # How to run

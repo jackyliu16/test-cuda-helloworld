@@ -44,6 +44,11 @@
     export CUDA_PATH="${pkgs.cudatoolkit}";
     export LIBRARY_PATH="${pkgs.cudatoolkit}/lib:$LIBRARY_PATH";
     export LD_LIBRARY_PATH="${pkgs.cudatoolkit}/lib:$LD_LIBRARY_PATH";
+    export LD_LIBRARY_PATH="/run/opengl-driver/lib:/run/opengl-driver-32/lib:$LD_LIBRARY_PATH";
+    export PATH=/nix/store/53ww4g3wf0y5vxwmypw04q1a0h83qjfd-cuda-merged-12.4/bin:$PATH
+    export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
+    export EXTRA_CCFLAGS="-I/usr/include"
+    export NIX_LDFLAGS="-L${pkgs.cudatoolkit}/lib:$NIX_LDFLAGS"
   '';
 
 }).env
