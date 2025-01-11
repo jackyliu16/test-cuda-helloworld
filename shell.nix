@@ -32,7 +32,6 @@
   runScript = "bash";
 
   # PATH = "${pkgs.gcc11}/bin:${pkgs.cudatoolkit}/bin:${pkgs.cudatoolkit}/nvvm/bin:$PATH";
-  CUDA_PATH = "${pkgs.cudaPackages.cudatoolkit}";
   # # LD_LIBRARY_PATH = "/run/opengl-driver";
   # LIBRARY_PATH = "$LIBRARY_PATH:/lib";
   # LD_LIBRARY_PATH = "${pkgs.linuxPackages.nvidia_x11}/lib:${pkgs.cudaPackages.cudatoolkit}/lib:${pkgs.cudaPackages.cudatoolkit}/lib/stubs:${pkgs.cudaPackages.lib}/lib:${pkgs.cudatoolkit}/lib64:$LD_LIBRARY_PATH:/lib";
@@ -40,9 +39,13 @@
   # CMAKE_CUDA_COMPILER="$CUDA_PATH/bin/nvcc";
   # CFLAGS="";
 
-  # profile = ''
-  #   export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
-  #   export EXTRA_CCFLAGS="-I/usr/include"
-  # '';
+
+  profile = ''
+    export CUDA_PATH="${pkgs.cudaPackages.cudatoolkit}";
+    export LIBRARY_PATH="${pkgs.cudaPackages.cudatoolkit}/lib:$LIBRARY_PATH";
+    export LD_LIBRARY_PATH="${pkgs.cudaPackages.cudatoolkit}/lib:$LD_LIBRARY_PATH";
+  '';
 
 }).env
+    # export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
+    # export EXTRA_CCFLAGS="-I/usr/include"
