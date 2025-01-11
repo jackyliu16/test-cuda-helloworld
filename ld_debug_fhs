@@ -1,0 +1,111 @@
+   2046441:	find library=librt.so.1 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v3:/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v2:/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v3/librt.so.1
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v2/librt.so.1
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1
+   2046441:	
+   2046441:	find library=libpthread.so.0 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0
+   2046441:	
+   2046441:	find library=libdl.so.2 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2
+   2046441:	
+   2046441:	find library=libstdc++.so.6 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libstdc++.so.6
+   2046441:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v3:/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v2:/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2046441:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v3/libstdc++.so.6
+   2046441:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v2/libstdc++.so.6
+   2046441:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6
+   2046441:	
+   2046441:	find library=libm.so.6 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6
+   2046441:	
+   2046441:	find library=libgcc_s.so.1 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libgcc_s.so.1
+   2046441:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2046441:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1
+   2046441:	
+   2046441:	find library=libc.so.6 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/ld-linux-x86-64.so.2
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0
+   2046441:	
+   2046441:	
+   2046441:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1
+   2046441:	
+   2046441:	
+   2046441:	initialize program: ./a.out
+   2046441:	
+   2046441:	
+   2046441:	transferring control: ./a.out
+   2046441:	
+   2046441:	find library=libcuda.so.1 [0]; searching
+   2046441:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2046441:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libcuda.so.1
+   2046441:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2046441:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libcuda.so.1
+   2046441:	 search cache=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/etc/ld.so.cache
+   2046441:	  trying file=/run/opengl-driver/lib/libcuda.so.1
+   2046441:	
+   2046441:	
+   2046441:	calling init: /run/opengl-driver/lib/libcuda.so.1
+   2046441:	
+hello, worldhello world from GPU by thread:0
+hello world from GPU by thread:1
+hello world from GPU by thread:2
+hello world from GPU by thread:3
+   2046441:	
+   2046441:	calling fini:  [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /run/opengl-driver/lib/libcuda.so.1 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6 [0]
+   2046441:	
+   2046441:	
+   2046441:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/ld-linux-x86-64.so.2 [0]
+   2046441:	

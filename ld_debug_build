@@ -1,0 +1,148 @@
+   2044196:	find library=librt.so.1 [0]; searching
+   2044196:	 search path=/run/opengl-driver/glibc-hwcaps/x86-64-v3:/run/opengl-driver/glibc-hwcaps/x86-64-v2:/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/glibc-hwcaps/x86-64-v3/librt.so.1
+   2044196:	  trying file=/run/opengl-driver/glibc-hwcaps/x86-64-v2/librt.so.1
+   2044196:	  trying file=/run/opengl-driver/librt.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/librt.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/librt.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/librt.so.1
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v3:/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v2:/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v3/librt.so.1
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/glibc-hwcaps/x86-64-v2/librt.so.1
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1
+   2044196:	
+   2044196:	find library=libpthread.so.0 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libpthread.so.0
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libpthread.so.0
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libpthread.so.0
+   2044196:	  trying file=$LD_LIBRARY_PATH/libpthread.so.0
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0
+   2044196:	
+   2044196:	find library=libdl.so.2 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libdl.so.2
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libdl.so.2
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libdl.so.2
+   2044196:	  trying file=$LD_LIBRARY_PATH/libdl.so.2
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2
+   2044196:	
+   2044196:	find library=libstdc++.so.6 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libstdc++.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libstdc++.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libstdc++.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/libstdc++.so.6
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libstdc++.so.6
+   2044196:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v3:/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v2:/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2044196:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v3/libstdc++.so.6
+   2044196:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/glibc-hwcaps/x86-64-v2/libstdc++.so.6
+   2044196:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6
+   2044196:	
+   2044196:	find library=libm.so.6 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libm.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libm.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libm.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/libm.so.6
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6
+   2044196:	
+   2044196:	find library=libgcc_s.so.1 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libgcc_s.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libgcc_s.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libgcc_s.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/libgcc_s.so.1
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libgcc_s.so.1
+   2044196:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2044196:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1
+   2044196:	
+   2044196:	find library=libc.so.6 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libc.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libc.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libc.so.6
+   2044196:	  trying file=$LD_LIBRARY_PATH/libc.so.6
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/ld-linux-x86-64.so.2
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0
+   2044196:	
+   2044196:	
+   2044196:	calling init: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1
+   2044196:	
+   2044196:	
+   2044196:	initialize program: ./a.out
+   2044196:	
+   2044196:	
+   2044196:	transferring control: ./a.out
+   2044196:	
+   2044196:	find library=libcuda.so.1 [0]; searching
+   2044196:	 search path=/run/opengl-driver:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3:$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2:$LD_LIBRARY_PATH		(LD_LIBRARY_PATH)
+   2044196:	  trying file=/run/opengl-driver/libcuda.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v3/libcuda.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/glibc-hwcaps/x86-64-v2/libcuda.so.1
+   2044196:	  trying file=$LD_LIBRARY_PATH/libcuda.so.1
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libcuda.so.1
+   2044196:	 search path=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib		(RUNPATH from file ./a.out)
+   2044196:	  trying file=/nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libcuda.so.1
+   2044196:	 search cache=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/etc/ld.so.cache
+   2044196:	 search path=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib:/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/glibc-hwcaps/x86-64-v3:/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/glibc-hwcaps/x86-64-v2:/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib		(system search path)
+   2044196:	  trying file=/nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libcuda.so.1
+   2044196:	  trying file=/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/glibc-hwcaps/x86-64-v3/libcuda.so.1
+   2044196:	  trying file=/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/glibc-hwcaps/x86-64-v2/libcuda.so.1
+   2044196:	  trying file=/nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/libcuda.so.1
+   2044196:	
+   2044196:	
+   2044196:	calling fini:  [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libstdc++.so.6 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/16gwxzrvk51x2bhrp25s78fkn5j5k1nl-gcc-11.5.0-lib/lib/libgcc_s.so.1 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6 [0]
+   2044196:	
+   2044196:	
+   2044196:	calling fini: /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/ld-linux-x86-64.so.2 [0]
+   2044196:	
+hello, world
