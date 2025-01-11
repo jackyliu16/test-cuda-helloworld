@@ -30,6 +30,32 @@
       devShells.default = import ./shell.nix { inherit pkgs; };
       devShells.fhs = import ./shell.nix { inherit pkgs; };
 
+
+      # NOTE: could build properly, but couldn't run via CUDA 
+      # https://nixos.wiki/wiki/CUDA => making a nix-shell
+      # devShells.example-shell = pkgs.mkShellNoCC {
+      #   name = "cuda-env-shell";
+      #   buildInputs = with pkgs; [
+      #     # git gitRepo gnupg autoconf curl
+      #     # procps gnumake util-linux m4 gperf unzip
+      #     gcc11
+      #     cudatoolkit 
+      #     cudaPackages.cuda_nvcc
+      #     cudaPackages.cuda_cudart
+      #     # linuxPackages.nvidia_x11
+      #     # libGLU libGL
+      #     # xorg.libXi xorg.libXmu freeglut
+      #     # xorg.libXext xorg.libX11 xorg.libXv xorg.libXrandr zlib 
+      #     # ncurses5 stdenv.cc binutils
+      #   ];
+      #   shellHook = ''
+      #      export CUDA_PATH=${pkgs.cudatoolkit}
+      #      # export LD_LIBRARY_PATH=${pkgs.linuxPackages.nvidia_x11}/lib:${pkgs.ncurses5}/lib
+      #      export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
+      #      export EXTRA_CCFLAGS="-I/usr/include"
+      #   '';        
+      # };
+
       devShells.build = pkgs.mkShellNoCC {
         buildInputs = with pkgs; [
           gcc11
