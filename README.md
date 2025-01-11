@@ -11,4 +11,14 @@ $ nvcc he.cu
 
 # How to run
 
-> 按照现在的情况，我可以在我本地 <nixpkgs> 中使用 CUDA 运行该应用程序
+> 应该可以按照下面的方式成功运行程序
+
+```bash
+$ nix develop .#fhs OR nix-shell
+
+[nix-shell]$ ./a.out 
+hello, worldhello world from GPU by thread:0
+hello world from GPU by thread:1
+hello world from GPU by thread:2
+hello world from GPU by thread:3
+```
