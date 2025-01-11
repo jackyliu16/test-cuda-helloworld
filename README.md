@@ -6,6 +6,7 @@
 FIXME: 没有办法在 F H S 环境下正常编译环境，可能需要进一步分析缘由
 
 ```bash
+# PROPER COMPILATION RESULT 
 $ nix develop .#build
 
 $ nvcc he.cu
@@ -21,7 +22,7 @@ collect2: 错误：ld 返回 1
 
 # How to run
 
-> 应该可以按照下面的方式成功运行程序
+> 你应该可以选择任何一种的 nix-shell 恰当的运行二进制文件 a.out
 
 ```bash
 $ nix develop .#fhs OR nix-shell OR nix develop .#build
@@ -33,7 +34,7 @@ hello world from GPU by thread:2
 hello world from GPU by thread:3
 ```
 
-## 无法从 build devShell 运行应用程序的简单分析
+## [历史] 无法从 build devShell 运行应用程序的简单分析
 
 1. 根据 cat /etc/ld.so.conf 链接文件中所指示的信息，发现在 F H S 环境下可以正常看到对应 /run/opengl-driver/ 的环境变量，同时可以在 LD_DEBUG=libs 运行二进制程序的日志信息中检视到对应 libcuda.so.1 动态库文件是从 /etc/ld.so.conf 文件中间接获取的。
 
@@ -52,7 +53,8 @@ hello world from GPU by thread:3
    2046441:	calling init: /run/opengl-driver/lib/libcuda.so.1
 ```
 
-2. 获取到 FHS 环境下的这些因素，在 nix develop .#build 中根据 nix 的修改，甚至没有提供对应到 /etc/ld.so.chache 文件让我们对比，只可以通过 LD_DEBUG 日志文件的分析得到当前确实没有找到 libcuda 动态库（找了所有相关的位置没有找到之后 calling fini 开始退出加载）。
+2. 获取到 FHS 环境下的这些因素，在 nix develop .#build 中由于 NixOS 采用的是自己的链接方式，直接将对应的位置链接到 RPATH 中，
+没有提供对应 /etc/ld.so.chache 的文件让我们对比。只可以通过 LD_DEBUG 日志文件的分析得到当前确实没有找到 libcuda 动态库（找了所有相关的位置没有找到之后 calling fini 开始退出加载）。
 
 ```
    2044196:	find library=libcuda.so.1 [0]; searching
