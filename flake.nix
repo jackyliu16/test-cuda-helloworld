@@ -57,9 +57,11 @@
       # };
 
       devShells.build = pkgs.mkShellNoCC {
+        nativeBuildInputs = with pkgs; [
+          autoAddDriverRunpath
+        ];
         buildInputs = with pkgs; [
           gcc11
-          autoAddDriverRunpath
         ] ++ (with pkgs.cudaPackages; [
           cudatoolkit
           cuda_nvcc
