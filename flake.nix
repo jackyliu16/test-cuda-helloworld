@@ -28,7 +28,7 @@
       };
     in {
       devShells.default = import ./shell.nix { inherit pkgs; };
-      devShells.fhs = import ./shell.nix { inherit pkgs; };
+      packages.fhs = import ./shell.nix { inherit pkgs; };
 
 
       # NOTE: could build properly, but couldn't run via CUDA 

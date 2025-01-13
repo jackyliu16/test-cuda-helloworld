@@ -51,6 +51,6 @@
     export NIX_LDFLAGS="-L${pkgs.cudatoolkit}/lib:$NIX_LDFLAGS"
   '';
 
-}).env
+})
     # export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
     # export EXTRA_CCFLAGS="-I/usr/include"
